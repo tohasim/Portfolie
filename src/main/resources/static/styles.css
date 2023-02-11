@@ -73,7 +73,7 @@ footer {
 #main-content {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 5fr 2fr;
     grid-template-rows: auto auto;
 }
 
@@ -88,8 +88,9 @@ footer {
 
 #image {
     background-color: transparent;
-    width: 250px;
-    border-radius: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #image img {
