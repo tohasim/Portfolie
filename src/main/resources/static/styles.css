@@ -1,11 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Calibri;
+    font-family: Calibri, serif;
     box-sizing: border-box;
 }
 
-html, body {
+body, html {
     height: 100%;
     background: linear-gradient(to top left, hsl(186, 55%, 50%), hsl(122, 60%, 90%));
 }
@@ -128,6 +128,13 @@ footer {
 
 #footer img {
     height: 100%;
+    filter: drop-shadow(5px 5px 5px #2e8e78) blur(.1em) invert(15%);
+    transition: .2s;
+}
+
+#footer img:hover {
+    filter: drop-shadow(5px 5px 5px #2e8e78) blur(0);
+    transition: .2s;
 }
 
 #social-media-buttons {
